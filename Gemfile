@@ -6,6 +6,7 @@ gem 'rails', '3.2.13'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'pg'
+gem 'bootstrap-sass'
 
 
 # Gems used only for assets and not required
@@ -17,6 +18,8 @@ end
 group :test do 
   gem 'shoulda-matchers'
   gem 'factory_girl_rails'
+  gem 'pry'
+  gem 'pry-debugger'
 end
 
 group :assets do
@@ -30,8 +33,7 @@ group :assets do
 end
 
 gem 'jquery-rails'
-gem 'pry'
-gem 'pry-debugger'
+
 
 
 # To use ActiveModel has_secure_password
