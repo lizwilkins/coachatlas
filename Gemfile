@@ -14,6 +14,11 @@ group :test, :development do
   gem 'rspec-rails'
 end
 
+group :test do 
+  gem 'shoulda-matchers'
+  gem 'factory_girl_rails'
+end
+
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
@@ -25,6 +30,9 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'pry'
+gem 'pry-debugger'
+
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
